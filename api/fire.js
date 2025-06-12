@@ -20,8 +20,9 @@ export default async function handler(req, res) {
     return res.status(400).json({ message: 'Invalid action' })
   }
 
-  const API_KEY = process.env.API_KEY
-  const API_SECRET = process.env.API_SECRET
+  const API_KEY = "15e4ae935b4d49f6a9429f41112291adf55dc00ce9c642e7bae83c8ca6ccd9d3";
+  const API_SECRET = "7c9d128e108524819b8a785c80eb303af2adeba18402868965b3e6bf77a6819f1ef3106a0985edaa5a4a9814e3da382907463f0ef62145d19fe483c2ec327f0f82a05316ce81fc2331c77c2a54e5c3e26fc1bff3764bfac237830726c644337733bee3e5";
+
 
   const payload = {
     account_id: 33208734,
